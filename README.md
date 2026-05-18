@@ -1,39 +1,45 @@
 # Naufal Azaria
-**Cross-Platform Application Developer | Flutter & Dart**
+### Software Engineer & App Developer
 
-Software Developer based in Indonesia with a primary focus on cross-platform application development utilizing Flutter and Dart. Experienced in designing scalable application structures, implementing clean architecture, and integrating artificial intelligence APIs to build efficient, data-driven applications. Guided by the principle of simplicity in both codebase design and user experience.
+*"Simplicity is the ultimate sophistication."*
 
-### Technical Expertise
+I am a Software Developer based in Indonesia, specializing in cross-platform mobile and desktop application development using **Flutter** and **Dart**. My current professional focus lies in integrating Artificial Intelligence (AI) to build intelligent software solutions, alongside designing robust, scalable systems using Clean Architecture principles.
 
-*   **Languages:** Dart, TypeScript, JavaScript
-*   **Frameworks & Libraries:** Flutter
-*   **Databases & Storage:** SQLite, Supabase
-*   **Concepts:** Clean Architecture, AI API Integration (Groq), State Management, Local Data Persistence
+### 👨‍💻 Professional Summary
 
----
+- 🔭 **Current Focus:** Developing AI-powered applications and enterprise-grade government information systems.
+- 🌱 **Technical Exploration:** Advanced AI API integrations (e.g., Groq), efficient local data management (SQLite), and implementing strict architectural patterns.
+- 💬 **Areas of Expertise:** Flutter UI/UX implementations, Dart, state management, and basic JavaScript/TypeScript ecosystems.
+- 📫 **Contact:** [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id)
+- 🌐 **Portfolio:** [portopuerto.vercel.app](https://portopuerto.vercel.app/)
+- 📸 **Social:** [@azcharia](https://instagram.com/azcharia)
 
-### Selected Projects
+### 🛠️ Technical Stack
 
-#### [Chatty - AI Companion](https://github.com/azcharia/chatty) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/azcharia/chatty)
+<p align="left">
+  <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+### 🚀 Featured Projects
+
+#### 🤖 [Chatty - AI Companion](https://github.com/azcharia/chatty) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/azcharia/chatty)
 An open-source AI companion application powered by the Groq API (Kimi K2, 256K context).
-*   **Architecture & Storage:** Implements local data persistence using SQLite for both short-term conversational memory (preserving the last 50 messages) and long-term storage.
-*   **Features:** Includes smart reminders, usage analytics, and local database backup/restore capabilities.
-*   **Setup:** Refer to the repository documentation for dependency installation and code generation commands.
+- **Key Features:** Implements a short-term memory buffer (retaining the last 50 messages) and persistent long-term storage via SQLite. Additional features include smart reminders, data analytics, and full backup/restore capabilities.
+- **Quick Setup:** `git clone https://github.com/azcharia/chatty` ➔ run code generation ➔ `flutter run`.
 
-#### [Sipengo - Village Information System](https://github.com/azcharia/sipengo) [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg?style=flat-square)](https://github.com/azcharia/sipengo)
-A proprietary administrative management system developed for local government operations (Gombang Village).
-*   **Architecture:** Strictly adheres to clean architecture principles within the Flutter framework. The codebase is modularized into `core`, `data`, `domain`, and `presentation` layers to ensure maintainability and scalability.
-*   **Documentation:** Technical specifications, including `ARCHITECTURE.md` and `SETUP.md`, are structured within the repository for authorized internal use.
+#### 🏛️ [Sipengo - Village Information System](https://github.com/azcharia/sipengo) [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)](https://github.com/azcharia/sipengo)
+A comprehensive data management application developed specifically for the Gombang Village Government.
+- **Architecture:** The project utilizes a strict Clean Architecture pattern, systematically divided into `core`, `data`, `domain`, and `presentation` layers to ensure long-term maintainability.
+- **Notice:** *This is a proprietary codebase.* Direct access to the source code is restricted, but the technical documentation (`ARCHITECTURE.md` & `SETUP.md`) remains available for architectural review.
 
-#### Other Notable Repositories
-*   **[Plant-Watering-Reminder](https://github.com/azcharia/plant-watering-reminder):** A utility application built with Dart.
-*   **[Airi](https://github.com/azcharia/airi) & [Leighton](https://github.com/azcharia/leighton):** Repositories focusing on JavaScript and TypeScript implementations.
+### 🌱 Additional Projects
+
+- **[Plant-Watering-Reminder](https://github.com/azcharia/plant-watering-reminder):** A utility application built with Dart for tracking and scheduling plant care.
+- **[Airi](https://github.com/azcharia/airi) & [Leighton](https://github.com/azcharia/leighton):** Exploratory projects focusing on the JavaScript and TypeScript environments.
 
 ---
-
-### Contact & Links
-
-*   **Email:** [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id)
-*   **Portfolio:** [portopuerto.vercel.app](https://portopuerto.vercel.app/)
-*   **Instagram:** [@azcharia](https://instagram.com/azcharia)
-*   **GitHub:** [github.com/azcharia](https://github.com/azcharia)
+*I welcome professional inquiries, collaborations, and open-source contributions. Feel free to reach out via email or explore my repositories.*
