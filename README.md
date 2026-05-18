@@ -1,44 +1,45 @@
-# Hi there 👋, I'm Naufal Azaria (@azcharia)
+# Hi there, I'm Naufal Azaria! 👋
 
-**Simplicity** | Pengembang Aplikasi Lintas-Platform & Integrasi AI 🇮🇩
+*"Simplicity is the ultimate sophistication."* 
 
-Saya seorang pengembang perangkat lunak dari Indonesia yang berfokus pada pembuatan aplikasi lintas platform (khususnya dengan Flutter) dan integrasi kecerdasan buatan (AI). Saya suka membangun aplikasi dengan struktur kode yang bersih (*Clean Architecture*) dan UI/UX yang interaktif.
+Welcome to my GitHub space! Aku adalah seorang App Developer berbasis di Indonesia 🇮🇩 yang *passionate* banget dalam membangun aplikasi *cross-platform*, khususnya menggunakan **Flutter & Dart**. Akhir-akhir ini, aku juga sedang berfokus pada **AI integrations** untuk menciptakan *user experience* yang lebih pintar dan interaktif.
 
-## 🛠️ Tech Stack & Keahlian
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### 👨‍💻 About Me
+- 🔭 **Currently working on:** Mengembangkan aplikasi AI Companion pintar dan Sistem Informasi Pemerintahan Desa.
+- 🌱 **Currently learning:** Deep-diving into AI APIs (like Groq), SQLite for local storage, and clean architecture di Flutter.
+- 💬 **Ask me about:** Dart, Flutter UI/UX implementations, basic JavaScript/TypeScript, dan bagaimana merancang struktur kode yang *simple* tapi *scalable*.
+- 📫 **How to reach me:** You can drop me an email at [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id).
+- ⚡ **Fun fact:** I love keeping my codebase clean and straightforward. Sesuai bio-ku: *Simplicity*!
 
-## 🚀 Proyek Unggulan
-
-### 🤖 [Chatty](https://github.com/azcharia/chatty) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/azcharia/chatty)
-Aplikasi *AI Companion* interaktif yang memanfaatkan kekuatan LLM.
-- **Fitur Utama:** Menggunakan Groq API (Kimi K2, 256K context), *short-term memory* (menyimpan 50 pesan terakhir), *long-term storage* menggunakan SQLite, *smart reminder*, analitik, serta *backup/restore*.
-- **Quick Start:** `git clone https://github.com/azcharia/chatty` ➜ Jalankan *codegen* ➜ `flutter run`
-
-### 🏛️ [Sipengo](https://github.com/azcharia/sipengo) [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)](https://github.com/azcharia/sipengo)
-Sistem Informasi Pemerintahan Desa (Proyek Kepemilikan Pemdes Gombang).
-- **Deskripsi:** Aplikasi manajemen desa dengan implementasi *Clean Architecture* penuh (folder `core`, `data`, `domain`, `presentation`). Menggunakan Supabase untuk manajemen basis data.
-- **Status:** *Proprietary software* - Kode dilindungi hak cipta dan tidak untuk didistribusikan tanpa izin.
-
-### 🌱 Proyek Lainnya
-- **[plant-watering-reminder](https://github.com/azcharia/plant-watering-reminder):** Aplikasi pengingat menyiram tanaman (Dart).
-- **[airi](https://github.com/azcharia/airi):** Eksperimen / proyek berbasis JavaScript.
-- **[leighton](https://github.com/azcharia/leighton):** Repositori berbasis TypeScript.
-
-## 📊 Statistik GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=azcharia&show_icons=true&theme=onedark&hide_border=true" alt="azcharia's GitHub stats" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=azcharia&layout=compact&theme=onedark&hide_border=true" alt="Top Languages" width="48%">
+### 🛠️ Tech Stack & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-## 📫 Mari Terhubung!
-- **Email:** [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id)
-- **Waktu Lokal:** Indonesia (UTC +07:00)
+### 🚀 Featured Projects
+
+#### 🤖 [Chatty - AI Companion](https://github.com/azcharia/chatty) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/azcharia/chatty)
+Aplikasi AI Companion *open-source* yang ditenagai oleh Groq API (Kimi K2, 256K context). 
+- **Fitur Utama:** Punya *short-term memory* (menyimpan 50 pesan terakhir) dan *long-term storage* menggunakan SQLite. Dilengkapi juga dengan smart reminders, analytics, serta fitur backup & restore.
+- **Quick Setup:** `git clone https://github.com/azcharia/chatty` ➔ jalankan *codegen* ➔ `flutter run`. Contributions are welcome!
+
+#### 🏛️ [Sipengo - Sistem Informasi Desa](https://github.com/azcharia/sipengo) [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-lightgrey.svg)](https://github.com/azcharia/sipengo)
+Aplikasi manajemen data yang dirancang khusus untuk Pemerintahan Desa Gombang. 
+- **Tech Highlights:** Proyek ini menggunakan struktur arsitektur Flutter yang *clean* dan terstruktur rapi (terbagi menjadi *core, data, domain, presentation*).
+- **Note:** *This is a proprietary codebase.* Kode ini tidak open-source tanpa izin spesifik, namun kamu bisa melihat struktur dokumentasi teknisnya (`ARCHITECTURE.md` & `SETUP.md`) di dalam repo.
+
+#### 🌱 Other Pinned Projects
+- **[Plant-Watering-Reminder](https://github.com/azcharia/plant-watering-reminder):** Aplikasi pengingat berbasis Dart untuk merawat tanamanmu.
+- **[Airi](https://github.com/azcharia/airi) & [Leighton](https://github.com/azcharia/leighton):** Eksplorasiku di ranah JavaScript dan TypeScript.
+
+### 📊 GitHub Stats
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=azcharia&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C3D1D9&icon_color=58A6FF" alt="azcharia's GitHub Stats" />
+</div>
 
 ---
-*Feel free to explore my repositories or reach out if you'd like to collaborate on open-source projects!*
+*Feel free to explore my repositories. Kalau ada yang menarik, let's connect and build something awesome together!* 🚀
