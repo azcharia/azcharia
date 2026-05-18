@@ -8,7 +8,9 @@ Welcome to my GitHub space! Aku adalah seorang App Developer berbasis di Indones
 - 🔭 **Currently working on:** Mengembangkan aplikasi AI Companion pintar dan Sistem Informasi Pemerintahan Desa.
 - 🌱 **Currently learning:** Deep-diving into AI APIs (like Groq), SQLite for local storage, and clean architecture di Flutter.
 - 💬 **Ask me about:** Dart, Flutter UI/UX implementations, basic JavaScript/TypeScript, dan bagaimana merancang struktur kode yang *simple* tapi *scalable*.
-- 📫 **How to reach me:** You can drop me an email at [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id).
+- 📫 **How to reach me:** Drop me an email at [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id).
+- 🌐 **Portfolio:** [portopuerto.vercel.app](https://portopuerto.vercel.app/)
+- 📸 **Instagram:** [@azcharia](https://instagram.com/azcharia)
 - ⚡ **Fun fact:** I love keeping my codebase clean and straightforward. Sesuai bio-ku: *Simplicity*!
 
 ### 🛠️ Tech Stack & Tools
@@ -35,11 +37,6 @@ Aplikasi manajemen data yang dirancang khusus untuk Pemerintahan Desa Gombang.
 #### 🌱 Other Pinned Projects
 - **[Plant-Watering-Reminder](https://github.com/azcharia/plant-watering-reminder):** Aplikasi pengingat berbasis Dart untuk merawat tanamanmu.
 - **[Airi](https://github.com/azcharia/airi) & [Leighton](https://github.com/azcharia/leighton):** Eksplorasiku di ranah JavaScript dan TypeScript.
-
-### 📊 GitHub Stats
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=azcharia&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C3D1D9&icon_color=58A6FF" alt="azcharia's GitHub Stats" />
-</div>
 
 ---
 *Feel free to explore my repositories. Kalau ada yang menarik, let's connect and build something awesome together!* 🚀
