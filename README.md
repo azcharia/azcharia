@@ -10,7 +10,7 @@ I am a Software Developer based in Indonesia, specializing in cross-platform mob
 - 🔭 **Current Focus:** Developing AI-powered applications and enterprise-grade government information systems.
 - 🌱 **Technical Exploration:** Advanced AI API integrations (e.g., Groq), efficient local data management (SQLite), and implementing strict architectural patterns.
 - 💬 **Areas of Expertise:** Flutter UI/UX implementations, Dart, state management, and basic JavaScript/TypeScript ecosystems.
-- 📫 **Contact:** [230101026@mhs.udb.ac.id](mailto:230101026@mhs.udb.ac.id)
+- 📫 **Contact:** [azcharias@gmail.com](mailto:azcharias@gmail.com)
 - 🌐 **Portfolio:** [portopuerto.vercel.app](https://portopuerto.vercel.app/)
 - 📸 **Social:** [@azcharia](https://instagram.com/azcharia)
 
