@@ -1,114 +1,48 @@
 # Naufal Azaria
-### Software Engineer & Cross-Platform Developer
+I am a software developer based in Indonesia. I build cross-platform mobile apps with Flutter and Dart, and design backend systems that integrate AI. My work is focused on clean architecture, practical database design, and building tools that solve real problems.
 
-<p align="left">
-  <a href="https://github.com/azcharia"><img src="https://img.shields.io/github/followers/azcharia?label=Follow&style=social" alt="GitHub Followers" /></a>
-  <a href="mailto:azcharias@gmail.com"><img src="https://img.shields.io/badge/Email-azcharias%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://portopuerto.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-portopuerto.vercel.app-blueviolet?style=flat-square" alt="Portfolio" /></a>
-  <a href="https://instagram.com/azcharia"><img src="https://img.shields.io/badge/Instagram-%40azcharia-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-</p>
-
-*"Simplicity is the ultimate sophistication."*
-
-I am a Software Developer based in Indonesia, specializing in cross-platform mobile and desktop application development using **Flutter** and **Dart**. My current focus lies in integrating Artificial Intelligence (AI) to build intelligent software solutions, alongside designing robust, scalable systems using Clean Architecture principles.
+You can reach me at [azcharias@gmail.com](mailto:azcharias@gmail.com), check my portfolio at [portopuerto.vercel.app](https://portopuerto.vercel.app/), or follow me on Instagram [@azcharia](https://instagram.com/azcharia).
 
 ---
 
-### 🛠️ Technical Stack & Tools
+### Technical Skills
 
-<table>
-  <tr>
-    <td valign="top" width="25%"><b>Mobile & Client</b></td>
-    <td valign="top" width="25%"><b>Web & Backend</b></td>
-    <td valign="top" width="25%"><b>AI & Data Science</b></td>
-    <td valign="top" width="25%"><b>Databases & Cloud</b></td>
-  </tr>
-  <tr>
-    <td valign="top">
-      • Flutter<br />
-      • Dart<br />
-      • Riverpod / Provider<br />
-      • SQLite (sqflite)<br />
-      • Hive (Local Cache)
-    </td>
-    <td valign="top">
-      • FastAPI (Python)<br />
-      • Next.js / React<br />
-      • TypeScript / JavaScript<br />
-      • Node.js<br />
-      • Deno / Edge Functions
-    </td>
-    <td valign="top">
-      • LlamaIndex / LangChain<br />
-      • Groq API / OpenRouter<br />
-      • PyTorch / Statsmodels<br />
-      • Time-Series Forecasting<br />
-      • Pandas / NumPy
-    </td>
-    <td valign="top">
-      • Supabase (BaaS)<br />
-      • PostgreSQL<br />
-      • pgvector (Vector DB)<br />
-      • Supabase Storage / Auth<br />
-      • Git / GitHub Actions
-    </td>
-  </tr>
-</table>
+*   **Frontend & Mobile:** Flutter, Dart, Riverpod, Provider, HTML/CSS, responsive web layouts.
+*   **Backend & APIs:** FastAPI (Python), Next.js (TypeScript), Node.js, Deno, Deno Deploy (Edge Functions).
+*   **Databases & Storage:** Supabase, PostgreSQL, SQLite (sqflite), Hive (Local Key-Value Cache), pgvector.
+*   **Data Science & AI:** Groq API, OpenRouter, LlamaIndex, PyTorch, Statsmodels (SARIMA), Pandas, NumPy.
 
 ---
 
-### 🚀 Featured Projects
+### Featured Projects
 
-#### 🏗️ [Leighton Asia — AI-Assisted Punchlist MVP](https://github.com/azcharia/leighton)
-> **AI-powered QA/QC construction defect logging and real-time project management dashboard.**
-*   **Technologies:** Flutter (Dart 3.7+), React 18 (Vite, TailwindCSS), Supabase (Postgres, Storage, Edge Functions in Deno), Groq AI (Whisper & LLaMA Vision API).
-*   **Key Features:**
-    *   **Fast Mobile Defect Capture:** Snipping photos and recording voice notes on-site.
-    *   **AI Concrete Defect Classification:** Groq LLaMA Vision API classifies concrete voids, exposed rebar, cracks, etc.
-    *   **Instant AI Audio Transcription:** Whisper Turbo converts field engineers' audio to editable text instantly.
-    *   **Real-time Synchronization:** Supabase Realtime automatically syncs defects to a central React dashboard.
-*   **Links:** 🌐 [Live App Prototype](https://leighton.vercel.app) | 📹 [Demo Video](https://drive.google.com/file/d/1q-Y1UHx0D5lUxl3pBuWeaL2TrEEYPH_D/view?usp=sharing)
+#### Leighton Asia — AI-Assisted Defect Logging MVP
+A mobile and web system built for the Leighton Asia Hackathon to automate construction site defect logging. Field engineers snap a photo of a concrete defect and record a brief voice description. The system uploads the assets to Supabase, transcribes the audio using the Groq Whisper API, classifies the defect using the Groq LLaMA Vision API, and syncs the result to a React-based web dashboard in real-time.
+*   **Tech Stack:** Flutter, React (Vite, Tailwind CSS), Supabase (Postgres, Deno Edge Functions, Storage), Groq Whisper & LLaMA Vision.
+*   **Artifacts:** [Live Web Dashboard](https://leighton.vercel.app) | [Source Code](https://github.com/azcharia/leighton) | [Video Demo](https://drive.google.com/file/d/1q-Y1UHx0D5lUxl3pBuWeaL2TrEEYPH_D/view?usp=sharing)
 
-#### 🛒 [NobleSoft — AI-Powered Digital Cashier](https://github.com/azcharia/noblesoft)
-> **Simple, chat-first point-of-sale (POS) and inventory management system for Indonesian micro-UMKMs.**
-*   **Technologies:** Next.js 14 (TypeScript, shadcn/ui), FastAPI (Python), Supabase (PostgreSQL + `pgvector`), LlamaIndex + Groq API.
-*   **Key Features:**
-    *   **Chat-First AI POS:** Simply type natural instructions (e.g. *"Jual Kopi Susu 2 cup ke Budi"* or *"Tambah stok Sabun Mandi 10 pcs"*) and the AI records the transaction and adjusts inventory automatically.
-    *   **Intuitive Dashboard:** Minimalist cards tracking income, estimated net profit, and low-stock alerts.
-    *   **Automated Receipts:** Generates digital invoices and receipts instantly for download.
-    *   **100% Free & Open Source:** Licensed under MIT for local community empowerment.
+#### NobleSoft — Chat-First POS and Inventory
+An open-source cashier and inventory management system designed for Indonesian micro-businesses. Instead of forcing users to navigate complex forms and nested menus, it uses a chat-based interface. Users type natural commands (such as "Jual Kopi Susu 2 cup ke Budi" or "Tambah stok Sabun Mandi 10 pcs"), and a Python backend parses the instruction to update inventory and record the sale in a PostgreSQL database.
+*   **Tech Stack:** FastAPI (Python), Next.js (TypeScript, shadcn/ui), Supabase (PostgreSQL + `pgvector`), LlamaIndex, Groq API.
+*   **Artifacts:** [Source Code](https://github.com/azcharia/noblesoft)
 
-#### 🌸 [Chatty — AI Companion App](https://github.com/azcharia/chatty)
-> **Personal virtual companion chat application featuring Akane, optimized for natural conversational flows.**
-*   **Technologies:** Flutter 3.29.3, SQLite (sqflite), Provider, OpenRouter API (Owl Alpha model).
-*   **Key Features:**
-    *   **Massive 1M Context Window:** Powered by OpenRouter for deep, highly continuous conversation.
-    *   **Akane Virtual Personality:** Context-aware, natural, brief, and warm conversational style.
-    *   **Smart Reminders:** Automatically detects reminder requests from natural chat text and sets local notifications.
-    *   **Local Privacy & Analytics:** Encrypted database statistics, memory usage tracking, and full local JSON backup/restore.
+#### Chatty — Personal AI Companion
+A personal companion chat application featuring Akane, a virtual friend built with conversational capability in mind. It uses the OpenRouter API with the Owl Alpha model to achieve natural, context-aware dialogue with a massive context memory. It includes a local parser that detects reminder requests from natural chat and registers local device notifications, along with diagnostic tools to manage the local database.
+*   **Tech Stack:** Flutter, SQLite (sqflite), Provider, OpenRouter API.
+*   **Artifacts:** [Source Code](https://github.com/azcharia/chatty)
 
-#### 🏛️ [SIPEN-GO — Village Census & Demographic System](https://github.com/azcharia/sipengo)
-> **Demographic census and population management system designed for the Gombang Village Administration.**
-*   **Technologies:** Flutter (Dart), Riverpod, Supabase (PostgreSQL Database & Auth), Hive Local Cache, Google Maps API.
-*   **Key Features:**
-    *   **Interactive Lineage Tree:** Hierarchical family trees dynamically tracing relationships.
-    *   **Map Integration:** Pins geographical coordinates and Google Maps addresses to family residences.
-    *   **Cloud & Local Cache Strategy:** Seamless offline caching via Hive, with compressed secure photo uploads to Supabase Storage.
-    *   **Demographic Analytics & Document Exports:** Visual dashboards showing population ratios and quick PDF/Excel reports generation.
+#### SIPEN-GO — Village Population Census
+A census and demographic management database built for the Gombang village government in Indonesia. The app maps address structures, tracks individual resident details, renders dynamic family tree diagrams, and pinpoints family locations using Google Maps coordinate integrations. To handle spotty internet in rural areas, it uses Hive for offline-first caching before syncing data back to Supabase.
+*   **Tech Stack:** Flutter, Riverpod, Supabase (PostgreSQL + Auth), Hive Local Cache, Google Maps API.
+*   **Artifacts:** [Source Code](https://github.com/azcharia/sipen-go)
 
-#### 📈 [Walmart Sales Forecasting Experiments](https://github.com/azcharia/research)
-> **Time-series forecasting models and data research comparing statistical and neural networks methods.**
-*   **Technologies:** Python 3.11, PyTorch, Statsmodels, Pandas, NumPy, Scikit-learn, Jupyter Notebook.
-*   **Key Features:**
-    *   **Time-Series Modeling:** Compares SARIMA, Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU) on Walmart sales datasets.
-    *   **Feature Engineering:** Advanced lagging, calendar effects processing, and rolling metrics.
-    *   **Interactive Analytics:** Notebooks for data preparation, baseline training, and visualized forecast evaluations.
+#### Walmart Sales Forecasting
+Time-series forecasting experiments built to compare traditional statistical models with deep learning architectures. It processes historical Walmart sales data, implements feature engineering (lagged variables, calendar adjustments, rolling statistics), and trains forecasting models to predict weekly store revenues.
+*   **Tech Stack:** Python, PyTorch, Statsmodels, Pandas, NumPy, Scikit-learn, Jupyter Notebook.
+*   **Artifacts:** [Source Code](https://github.com/azcharia/research)
 
 ---
 
-### 🌱 Additional Projects
+### Other Projects
 *   **[plant-watering-reminder](https://github.com/azcharia/plant-watering-reminder):** A utility application built in Dart for tracking and scheduling plant watering cycles.
 *   **[airi](https://github.com/azcharia/airi):** An exploratory playground project focused on JavaScript and TypeScript configurations.
-
----
-*I welcome professional inquiries, collaborations, and open-source contributions. Feel free to reach out via email or explore my repositories.*
