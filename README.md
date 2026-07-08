@@ -1,62 +1,46 @@
 # 👋 Naufal Azaria
-### Software Engineer & Cross-Platform Developer
+### AI Native Engineer & Data Scientist
 
 <p align="left">
   <a href="https://github.com/azcharia"><img src="https://img.shields.io/github/followers/azcharia?label=Follow&style=social" alt="GitHub Followers" /></a>
   <a href="mailto:azcharias@gmail.com"><img src="https://img.shields.io/badge/Email-azcharias%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://portopuerto.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-portopuerto.vercel.app-blueviolet?style=flat-square" alt="Portfolio" /></a>
-  <a href="https://instagram.com/azcharia"><img src="https://img.shields.io/badge/Instagram-%40azcharia-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://linkedin.com/in/azcharia"><img src="https://img.shields.io/badge/LinkedIn-Naufal%20Azaria-blue?style=flat-square&logo=linkedin" alt="LinkedIn" /></a>
 </p>
 
-*"Simplicity is the ultimate sophistication."*
+*"Structure equals beauty."*
 
-I am a software developer based in Indonesia. I build cross-platform mobile apps with Flutter and Dart, and design backend systems that integrate AI. My work is focused on clean architecture, practical database design, and building tools that solve real problems.
+Saya adalah pengembang sistem AI-native dan peneliti data science yang berfokus menjembatani arsitektur perangkat lunak dengan analisis kuantitatif. Saya membangun aplikasi lintas platform (Flutter), mengintegrasikan model cerdas (LLMs, RAG pipelines, Vector Databases), dan merancang visualisasi data interaktif untuk memberikan solusi praktis berdaya dampak tinggi.
 
 ---
 
 ### 🛠️ Technical Stack & Tools
 
-*   **💻 Frontend & Mobile:** Flutter, Dart, Riverpod, Provider, HTML/CSS, responsive web layouts.
-*   **⚙️ Backend & APIs:** FastAPI (Python), Next.js (TypeScript), Node.js, Deno, Deno Deploy (Edge Functions).
-*   **🗄️ Databases & Storage:** Supabase, PostgreSQL, SQLite (sqflite), Hive (Local Key-Value Cache), pgvector.
-*   **🧠 Data Science & AI:** Groq API, OpenRouter, LlamaIndex, PyTorch, Statsmodels (SARIMA), Pandas, NumPy.
+*   **🧠 Data Science & AI:** Python, SQL, LlamaIndex, PyTorch, scikit-learn, pgvector, statsmodels (SARIMA), Pandas, NumPy, Streamlit.
+*   **⚙️ Backend & APIs:** FastAPI, Node.js, Deno (Deno Edge Functions), Supabase Edge Functions, RESTful APIs.
+*   **💻 Frontend & Mobile:** Flutter, Dart, Riverpod, React / Next.js, Tailwind CSS, shadcn/ui.
+*   **🗄️ Databases & Devops:** PostgreSQL, Supabase RLS, SQLite, Hive (Local Cache), Git / GitHub Workflows.
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 🏗️ [Leighton Asia — AI-Assisted Defect Logging MVP](https://github.com/azcharia/leighton)
-> A mobile and web system built for the Leighton Asia Hackathon to automate construction site defect logging.
-*   **How it works:** Field engineers snap a photo of a concrete defect and record a brief voice description. The system uploads the assets to Supabase, transcribes the audio using the Groq Whisper API, classifies the defect using the Groq LLaMA Vision API, and syncs the result to a React-based web dashboard in real-time.
-*   **Stack:** Flutter, React (Vite, Tailwind CSS), Supabase (Postgres, Deno Edge Functions, Storage), Groq Whisper & LLaMA Vision.
-*   **Links:** 🌐 [Live Web Dashboard](https://leighton.vercel.app) | 📹 [Video Demo](https://drive.google.com/file/d/1q-Y1UHx0D5lUxl3pBuWeaL2TrEEYPH_D/view?usp=sharing)
+#### 📊 [Regional Welfare Polarization Analysis](https://github.com/azcharia/welfare-polarization-indonesia)
+> Pipeline machine learning tidak terawasi (unsupervised learning) untuk menganalisis polarisasi kesejahteraan regional di Indonesia.
+*   **Detail:** Melakukan segmentasi terhadap 514 kabupaten/kota di Indonesia berdasarkan indikator sosio-ekonomi BPS. Menguji 28 konfigurasi clustering (menentukan K-Means K=4 optimal), menerapkan PCA untuk reduksi dimensi, dan membuat dasbor Streamlit interaktif dengan Plotly.
+*   **Stack:** Python, scikit-learn, PCA, Streamlit, Plotly, Node.js (untuk compiler laporan otomatis).
 
-#### 🛒 [NobleSoft — Chat-First POS & Inventory](https://github.com/azcharia/noblesoft)
-> An open-source cashier and inventory management system designed for Indonesian micro-businesses.
-*   **How it works:** Instead of forcing users to navigate complex forms and nested menus, it uses a chat-based interface. Users type natural commands (such as *"Jual Kopi Susu 2 cup ke Budi"* or *"Tambah stok Sabun Mandi 10 pcs"*), and a Python backend parses the instruction to update inventory and record the sale in a PostgreSQL database.
-*   **Stack:** FastAPI (Python), Next.js (TypeScript, shadcn/ui), Supabase (PostgreSQL + `pgvector`), LlamaIndex, Groq API.
-*   **Links:** 💻 [Source Code](https://github.com/azcharia/noblesoft)
+#### 📈 [Predictive Time-Series Modeling](https://github.com/azcharia/research-forecasting)
+> Pipeline peramalan deret waktu (time-series forecasting) untuk memprediksi konsumsi energi harian.
+*   **Detail:** Mengembangkan dan membandingkan model dasar statistik (SARIMA) dengan model Deep Learning sekuensial (RNN, LSTM, GRU) menggunakan PyTorch. LSTM berhasil mencapai akurasi tertinggi dalam menekan angka kesalahan prediksi.
+*   **Stack:** PyTorch, LSTM, GRU, statsmodels, Python, Pandas.
 
-#### 🌸 [Chatty — Personal AI Companion](https://github.com/azcharia/chatty)
-> A personal companion chat application featuring Akane, a virtual friend built with conversational capability in mind.
-*   **How it works:** It uses the OpenRouter API with the Owl Alpha model to achieve natural, context-aware dialogue with a massive context memory. It includes a local parser that detects reminder requests from natural chat and registers local device notifications, along with diagnostic tools to manage the local database.
-*   **Stack:** Flutter, SQLite (sqflite), Provider, OpenRouter API.
-*   **Links:** 💻 [Source Code](https://github.com/azcharia/chatty)
+#### 🏗️ [Leighton Asia — AI Defect Tracker](https://github.com/azcharia/leighton)
+> Aplikasi Flutter yang terintegrasi dengan Groq LLaMA Vision API dan Whisper API untuk mengotomatisasi pencatatan cacat konstruksi secara asinkron.
+*   **Detail:** Meraih Juara 3 pada AI STOR 2.0 Hackathon. Memanfaatkan Deno Edge Functions dan pg_net trigger di Supabase untuk menjalankan inferensi gambar secara serverless.
+*   **Stack:** Flutter, React, Supabase (Postgres, Edge Functions), Groq API (LLaMA Vision & Whisper).
 
-#### 🏛️ [SIPEN-GO — Gombang Census & Demographic System](https://github.com/azcharia/sipengo)
-> A census and demographic management database built for the Gombang village government in Indonesia.
-*   **How it works:** The app maps address structures, tracks individual resident details, renders dynamic family tree diagrams, and pinpoints family locations using Google Maps coordinate integrations. To handle spotty internet in rural areas, it uses Hive for offline-first caching before syncing data back to Supabase.
-*   **Stack:** Flutter, Riverpod, Supabase (PostgreSQL + Auth), Hive Local Cache, Google Maps API.
-*   **Links:** 💻 [Source Code](https://github.com/azcharia/sipen-go)
-
-#### 📊 [Walmart Sales Forecasting](https://github.com/azcharia/research)
-> Time-series forecasting experiments built to compare traditional statistical models with deep learning architectures.
-*   **How it works:** It processes historical Walmart sales data, implements feature engineering (lagged variables, calendar adjustments, rolling statistics), and trains forecasting models to predict weekly store revenues.
-*   **Stack:** Python, PyTorch, Statsmodels, Pandas, NumPy, Scikit-learn, Jupyter Notebook.
-*   **Links:** 💻 [Source Code](https://github.com/azcharia/research)
-
----
-
-### 🌱 Other Projects
-*   **[plant-watering-reminder](https://github.com/azcharia/plant-watering-reminder):** A utility application built in Dart for tracking and scheduling plant watering cycles.
-*   **[airi](https://github.com/azcharia/airi):** An exploratory playground project focused on JavaScript and TypeScript configurations.
+#### 🛒 [NobleSoft — AI-Assisted POS SaaS](https://github.com/azcharia/noblesoft)
+> Aplikasi Point of Sale (POS) multi-tenant untuk UMKM yang mengutamakan interaksi Chat-First berbasis AI.
+*   **Detail:** Memiliki asisten AI terintegrasi menggunakan LlamaIndex dan Groq API untuk menerjemahkan bahasa alami langsung menjadi transaksi database. Menggunakan pgvector untuk pencarian semantik produk serta BYOK untuk isolasi kredensial pengguna secara aman.
+*   **Stack:** FastAPI (Python), Next.js, LlamaIndex, pgvector, Supabase.
