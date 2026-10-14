@@ -36,3 +36,5 @@ Software engineer focused on mobile development, modern web applications, and pr
 <div align="center">
   <sub>ᓚᘏᗢ I still like cats.</sub>
 </div>
+
+<!-- crafted with care -->
